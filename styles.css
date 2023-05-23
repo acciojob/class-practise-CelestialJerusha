@@ -1,5 +1,9 @@
 /*  your css code here. If applicable */
-p.para{
+p.para:first-child{
+                background-color : #eee;
+                color: #00f;
+            }
+            p.para:nth-child(3){
                 background-color : #eee;
                 color: #00f;
             }
