@@ -1,9 +1,13 @@
 /*  your css code here. If applicable */
-.para{
+ p.para::first-line{
                 background-color : #eee;
                 color: #00f;
             }
-.para1{
+            p.para:nth-child(3){
+                background-color : #eee;
+                color: #00f;
+            }
+            .para1{
                 font-size: 12px;
             }
             
